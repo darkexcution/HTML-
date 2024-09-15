@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html>
+    <head>
+        <title style="color: green;">My first website</title>
+        <header><h1>This is Sith's first website</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="me.html">About me</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+    
+            </nav>
+            <hr style="color: green;">
+    </head>
+    
+    <body style="background-color: black; background-image: url(images/logo.png); background-position: center; background-size: contain;  background-repeat: no-repeat; background-attachment: fixed;" >
+        
+        <div class="dropdown">
+            <button>More</button>
+            <div class="content">
+                <a href="https://www.google.com/">google</a>
+                <a href="lyrics.html">Fast Lyrics</a>
+                <a href="JuiceWrld.html">JuiceWrld</a>
+                <a href="mailto:test@fake.com">email</a>
+            </div>
+        </div>
+        <h2 style="color: green;">Sith's schedule </h2>
+        <table border="1"><!--border to create a border for table-->
+            <tr style="background-color: black;"><!--table row-->
+                <th style="color: green;" width="100">Sunday</th>
+                <th style="color: green;" width="100">Monday</th>
+                <th style="color: green;" width="100">Tuesday</th>
+                <th style="color: green;" width="100">Wednesday</th>
+                <th style="color: green;" width="100">Thursday</th>
+                <th style="color: green;" width="100">Friday</th>
+                <th style="color: green;" width="100">Saturday</th>
+            </tr >
+            <tr align="center">
+                <td style="color: green;" >gym</td><!--table data-->
+                <td style="color: green;">school</td>
+                <td style="color: green;">work</td>
+                <td style="color: green;">work</td>
+                <td style="color: green;">gym</td>
+                <td style="color: green;">gym</td>
+                <td style="color: green;">work</td>
+            </tr>
+        </table>
+      <br>
+        <span style="color: green;">This is a google link:</span>
+        <a href="https://www.google.com/"
+        taget="_blank"
+        title="goes to google"
+        ><!--this ankering for hyperlink href-is a hyper reference/target = /blank this link will open in a new tab title give a small tag-->
+        click me
+        </a>
+        <br>
+        <span style="color: green;">This is a lyric page:</span>
+        <a href="lyrics.html">
+            Fast by Juice Wrld
+        </a>
+        <br>
+        <span style="color: green;">This is an email link:</span>
+        <a href="mailto:test@fake.com">
+            email me
+        </a>
+        <br>
+        <span style="color: green;">This is a relief click button:</span>
+        <a href="relief.html">
+        <button style="font-size: 20px; background-color: green; color: black;" >Click me</button>
+        </a>
+        <h4 style="color: green;"><u>For any complaints</u></h4>
+        <form style="color: green;" action="index.php" method ="POST" encrtype="multipart/form-data">
+            <label for="comment">comments:</label><br>
+            <textarea style="color: green; background-color: black;" id="comment" rows="3" cols="25"></textarea>
+            <br>
+            <label style="color: green; background-color: black;" for="file">file</label>
+            <input style="color: green; background-color: black;" type="file" id="file" ><br><!--to limit the file use accept method ex=accept="image/png"-->
+            <label for="email">email:</label>
+            <input style="color: green; background-color: black;" type="email" id="email" placeholder="acb123@gmail.com"><br>
+
+            <label for="phone">phone:</label>
+            <input style="color: green; background-color: black;" type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+            <label for="birthday">birthday:</label>
+            <input style="color: green; background-color: black;" type="date" id="birthday"><br>
+            
+            <label for="quantity">quantity:</label>
+            <input style="color: green; background-color: black;"type="number" id="quantity" min="0" max="99" value="1"><br>
+
+            <label id="title">title:</label>
+            <label for="Mr.">Mr.</label>
+            <input style="color: green; background-color: black;" type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.</label>
+            <input style="color: green; background-color: black;" type="radio" id="Ms." value="Ms." name="title">
+            <label for="Other">Other</label>
+            <input style="color: green; background-color: black;" type="radio" id="other" value="Other" name="title"><br>
+
+            <label for="payment">payment:</label>
+            <select style="color: green; background-color: black;" id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select><br>
+            <input style="color: green; background-color: black;"type="reset">
+            <input style="color: green; background-color: black;"type="submit">
+
+        </form>
+    </body>
+    <footer style="color: green;" >
+        <hr>
+        Author:Sitherankan Sinnappu <br>
+        &copy; copyright reserved <br>
+        <small><a href="sithersinnappu@gmail.com"></a></small>
+    </footer>
+</html>

@@ -1,0 +1,256 @@
+h1{
+    color:purple
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.pagination a.active{
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.pagination a:hover:not(.active){
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.dropdown{
+    display:inline-block;
+}
+ .dropdown button{
+    background-color: forestgreen;
+    color: black ;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;   
+}
+.dropdown a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: forestgreen;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px greenyellow;
+}
+.dropdown:hover .content{
+    display:block;
+}
+.dropdown:hover button{
+    background-color: green;
+}
+.dropdown a:hover{
+    background-color: greenyellow;
+}
+
+h1{
+    color: green;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: forestgreen;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: greenyellow;
+}
+.navbar li{
+    float: left;
+}
+
+
+.contactbar ul{
+    list-style-type: none;
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.contactbar a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.contactbar a:hover{
+    background-color: purple;
+}
+.contactbar li{
+    float: left;
+}
+
+.icons{
+    background-color: black;
+    text-align: center;
+   
+}
+.icons a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+.contacthead{
+    color: blueviolet;
+    background-color: black;
+}
+.contactbody{
+    background-color: black;
+    color:blueviolet;
+    margin-left:50px;
+}
+
+.fa-sharp.fa-solid.fa-phone.fa-5x{
+    color:green;
+}
+.fa-sharp.fa-solid.fa-phone.fa-5x:hover{
+    color:greenyellow;
+}
+.fa-brands.fa-linkedin.fa-5x{
+    color:blue;
+}
+.fa-brands.fa-linkedin.fa-5x:hover{
+    color:darkblue;
+}
+.fa-brands.fa-square-github.fa-5x{
+    color: white;
+}
+.fa-brands.fa-square-github.fa-5x:hover{
+    color: wheat;
+}
+.fa-solid.fa-envelope.fa-5x{
+    color:red;
+}
+.fa-solid.fa-envelope.fa-5x:hover{
+    color:darkred;
+}
+
+
+
+
+.first{
+    background-color: black;
+}
+#headerFirst{
+    color: green;  
+}
+.login{
+    background-color: black;
+    color: forestgreen;
+}
+
+#reset{
+    background-color: black;
+    color:forestgreen;
+}
+#reset:hover{
+    animation: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#submit{
+    background-color: black;
+    color:forestgreen;
+}
+#submit:hover{
+    animation: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#username{
+    background-color: black;
+    color: forestgreen;
+}
+#username:hover{
+    animation: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#password{
+    background-color: black;
+    color:forestgreen;
+}
+#password:hover{
+    animation: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+#box{
+    width: 400px;
+    height: 250px;
+    font-size: 13em;
+    text-align: center;
+}
+#box:hover{
+    animation: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes slideleft {
+    from{transform: translateX(300%);}  
+}
+@keyframes slideRight {
+    to{transform: translateX(300%);}  
+}
+@keyframes slideUp {
+    from{transform: translateY(300%);}  
+}
+@keyframes slideDown {
+    to{transform: translateY(300%);}  
+}
+@keyframes rotate {
+    25%{transform: rotateY(360deg);}  
+}
+@keyframes grow{
+    100%{transform: scale(2,2);}
+}
+@keyframes shrink {
+    50%{transform: scale(0.5,0,5);}  
+}
+@keyframes fade {
+    50%{opacity: 0}  
+}
+@keyframes colorchange{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+}
+@keyframes glow {
+    50%{box-shadow: 0px 0px 5px greenyellow;}
+    
+}
+
+.footer{
+    color: green;
+    bottom: auto;
+    position: relative;
+    height: 100px;
+    margin-top:440px;
+    clear: both;
+}

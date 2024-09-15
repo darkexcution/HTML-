@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    
+    body{
+        background-color: black;
+        color:forestgreen
+    }
+    h1{
+        color: forestgreen;
+    }
+</style>
+    <head>
+        <center style="font-size: 2cm;">WHY ARE YOU SO STRESSED???</center>
+    </head>
+    <hr>
+    <body>
+       
+        <h1>Please choose which problem your dealing with?</h1>
+        <p id="rejected">You got rejected:</p>
+        <a href="https://www.youtube.com/watch?v=-rYjfciwWGk&t=60s">
+        <button onclick="doSomething()" style="width: 20px; height: 20px;"></button>
+        </a>
+        <br>
+        <br>
+        <p id="Exam">Exam tomorrow:</p>
+        <a href="https://www.youtube.com/watch?v=QZUFeEadP68&t=6s">
+            <button onclick ="doSomething()" style="width: 20px; height: 20px;"></button>
+        </a>
+        <br>
+        <br>
+        <p id="family">Family hates you:</p>
+        <a href="https://www.youtube.com/watch?v=bHb5CFGYz1A">
+            <button onclick="doSomething()" style="width: 20px; height: 20px;"></button>
+        </a>
+        <br>
+        <br>
+
+        <br>
+        <br>
+        <script>
+            function doSomething(){
+                document.getElementById("rejected").innerHTML= "There is plenty of fish in the sea"
+                document.getElementById("Exam").innerHTML="Mcdonald's always hiring"
+                document.getElementById("family").innerHTML= "ME TOO"
+            }
+        </script>
+    
+    
+    </body>
+</html>
